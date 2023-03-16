@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Formulário</title>
+</head>
+<body class="formulario">
+    <header>
+        <h1 class="title-exercicio">EXERCÍCIO 04</h1>
+        <p class="descricao-exercicio" style="font-weight: normal;">Formulário</p>
+    </header>
+
+    <form class="form-box">
+        <h1>Informações pessoais</h1>
+
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="Insira seu nome">
+        
+        <label for="nascimento">Data de Nascimento</label>
+        <input id="nascimento" type="date">
+
+        <label for="endereco">Endereço</label>
+        <input id="endereco" type="text">
+
+        <label for="cidade">Cidade</label>
+        <input id="cidade" type="text" placeholder="Selecione uma cidade" list="opcoes">
+        <datalist id="opcoes">
+            <option>--</option>
+            <option>Porto Velho</option>
+        </datalist>
+
+        <label for="estado">Estado</label>
+        <input id="estado" type="text" placeholder="Selecione um Estado" list="options">
+        <datalist id="options">
+            <option>--</option>
+            <option>Rondônia</option>
+        </datalist>
+        
+        <label for="telefone">Telefone</label>
+        <input id="telefone" type="tel" placeholder="Insira seu número">
+        
+        <label for="celular">Celular</label>
+        <input id="celular" type="tel" placeholder="Insira seu número de celular">
+        
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Insira seu email">
+    </form>
+    <button class="botao-formulario"><a>ENVIAR</a></button><br>
+
+    <footer style="font-weight: normal;">&copy; Desenvolvido por Ian Vinícius Vasconcelos</footer>
+</body>
+</html>
