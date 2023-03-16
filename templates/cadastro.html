@@ -10,14 +10,14 @@
 <body class="formulario">
     <header>
         <h1 class="title-exercicio">EXERCÍCIO 04</h1>
-        <p class="descricao-exercicio">Formulário</p>
+        <p class="descricao-exercicio" style="font-weight: normal;">Formulário</p>
     </header>
 
     <form class="form-box">
         <h1>Informações pessoais</h1>
 
         <label for="nome">Nome</label>
-        <input id="nome" type="text">
+        <input id="nome" type="text" placeholder="Insira seu nome">
         
         <label for="nascimento">Data de Nascimento</label>
         <input id="nascimento" type="date">
@@ -33,23 +33,23 @@
         </datalist>
 
         <label for="estado">Estado</label>
-        <input id="estado" type="text" placeholder="Selecione um Estado" list="opcoes">
-        <datalist id="opcoes">
+        <input id="estado" type="text" placeholder="Selecione um Estado" list="options">
+        <datalist id="options">
             <option>--</option>
             <option>Rondônia</option>
         </datalist>
         
         <label for="telefone">Telefone</label>
-        <input id="telefone" type="tel">
+        <input id="telefone" type="tel" placeholder="Insira seu número">
         
         <label for="celular">Celular</label>
-        <input id="celular" type="tel">
+        <input id="celular" type="tel" placeholder="Insira seu número de celular">
         
         <label for="email">Email</label>
-        <input id="email" type="email">
+        <input id="email" type="email" placeholder="Insira seu email">
     </form>
-    <button>ENVIAR</button><br>
+    <button class="botao-formulario"><a>ENVIAR</a></button><br>
 
-    <footer>&copy; Desenvolvido por Ian Vinícius Vasconcelos</footer>
+    <footer style="font-weight: normal;">&copy; Desenvolvido por Ian Vinícius Vasconcelos</footer>
 </body>
 </html>

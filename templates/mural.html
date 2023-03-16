@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Mural - Cães Desaparecidos</title>
 </head>
-<body class="mural">
-    <header>
-        <h1 class="title-exercicio">EXERCÍCIO 02</h1>
-        <p class="descricao-exercicio">Mural</p>
-    </header>
+<body>
+    <div class="mural">
+        <header>
+            <h1 class="title-exercicio">EXERCÍCIO 02</h1>
+            <p class="descricao-exercicio">Mural</p>
+        </header>
 
-    <div class="mural-content">
-        <h1>Mural - Encontre aqui cães desaparecidos</h1>
-        <p>BEAGLE desaparecido de casa há dois dias. Por favor, ajudem. Ele precisa de medicamentos contínuos pois é cardíaco. Desapareceu perto da estação de metrô Paulista. Atende pelo nome de Toby. <br>Entrar em contato com Rose – 7777-7777.</p>
-        <img alt="img-mural" src="./imgs/Beagle.JPG">
-        
-        <p>BULL TERRIER encontrado na região da Lapa, em São Paulo, estava muito assustado. Cão muito dócil. <br>Entrar em contato com Fábio – 5555-5555.
-        </p>
-        <img alt="img-mural" src="./imgs/BullTerrier.jpg">
-        
-        <p>COLLIE perdida no dia 28 na rua Julia Rica, às 17h. Ela está na minha família há 4 anos. Obrigado! <br>Entrar em contato com Luís – 7788-9999.
-        </p>
-        <img alt="img-mural" src="./imgs/Collie.jpg">
+        <div class="mural-content row">
+            
+            <h1>Mural - Encontre aqui cães desaparecidos</h1>
+            <div class="col desaparecido" style="text-align: justify;">
+                <img alt="img-mural" src="../imgs/Beagle.JPG">
+                <p>BEAGLE desaparecido de casa há dois dias. Por favor, ajudem. Ele precisa de medicamentos contínuos pois é cardíaco. Desapareceu perto da estação de metrô Paulista. Atende pelo nome de Toby. <br><strong>Entrar em contato com Rose – 7777-7777.</strong></p>
+            </div>
 
-        <p>Atendimento: atendimento@desaparecidos.com – (0XX) 99999-9999 / (0XX) 88888-8888</p>
+            <div class="col desaparecido" style="text-align: justify;">
+                <img alt="img-mural" src="../imgs/BullTerrier.jpg">
+                <p>BULL TERRIER encontrado na região da Lapa, em São Paulo, estava muito assustado. Cão muito dócil. <br><strong>Entrar em contato com Fábio – 5555-5555</strong>.</p>
+            </div>
+
+            <div class="col desaparecido" style="text-align: justify;">
+                <img alt="img-mural" src="../imgs/Collie.jpg">
+                <p>COLLIE perdida no dia 28 na rua Julia Rica, às 17h. Ela está na minha família há 4 anos. Obrigado! <br><strong>Entrar em contato com Luís – 7788-9999</strong>.</p>
+            </div>
+            <p style="margin-top: 5rem;"><strong>Atendimento: atendimento@desaparecidos.com – (0XX) 99999-9999 / (0XX) 88888-8888</strong></p>
+        </div>
+        <footer>&copy; Desenvolvido por Ian Vinícius Vasconcelos</footer>
     </div>
-    <footer>&copy; Desenvolvido por Ian Vinícius Vasconcelos</footer>
 </body>
 </html>
